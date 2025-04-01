@@ -1,10 +1,19 @@
 /* TodoList.css */
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("solo.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 .todo-container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: transparent;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -12,7 +21,7 @@
 .title {
     text-align: center;
     font-size: 24px;
-    color: #333;
+    color: #fff;
     margin-bottom: 20px;
 }
 .input-container{
@@ -34,7 +43,7 @@
 .todo-card {
     width: 300px; /* Adjust the width of the cards as needed */
     padding: 20px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 8px;
     margin-bottom: 20px;
     border: 2px solid grey;
